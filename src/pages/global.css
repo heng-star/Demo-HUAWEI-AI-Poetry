@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(66,76,80);
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(75,92,196);
+}
+a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,41 @@
+{
+  "name": "poem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack && cross-env NODE_ENV=production webpack --config webpack.node.config.js",
+    "dev:client": "webpack-dev-server",
+    "watch:node": "webpack --config webpack.node.config.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "css-loader": "^4.3.0",
+    "exif-js": "^2.3.0",
+    "express": "^4.17.1",
+    "file-loader": "^6.1.0",
+    "html-inline-css-webpack-plugin": "^1.8.1",
+    "html-webpack-plugin": "^4.4.1",
+    "imports-loader": "^1.1.0",
+    "mini-css-extract-plugin": "^0.11.1",
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4",
+    "nodemon-webpack-plugin": "^4.3.2",
+    "qrcode": "^1.4.4",
+    "raw-loader": "^4.0.1",
+    "react-dev-utils": "^10.2.1",
+    "style-loader": "^1.2.1",
+    "svelte": "^3.24.1",
+    "svelte-loader": "^2.13.6",
+    "svelte-preprocess": "^4.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
